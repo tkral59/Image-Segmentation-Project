@@ -14,7 +14,7 @@ def listDir(dir):
     files = sorted(files)
     writer = csv.writer(f)
     writer.writerow([dir])
-    writer.writerow(["File Name", "File Type", "Dimensions", "Memory size (MB)", "Validated Label"])
+    writer.writerow(["File Name", "File Type", "Dimensions", "Memory size (MB)", "Validated Label", "Thick or Thin", "Blue or Yellow", "Has Marker"])
     for filename in files:
         if os.path.isdir(dir + "//" + filename):
             listDir(dir + "//" + filename)
