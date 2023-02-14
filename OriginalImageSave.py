@@ -1,3 +1,5 @@
+#program to find keywords from one directory, and find their corresponding images in another directory with said keywords.
+
 import os
 import collections
 #import re
