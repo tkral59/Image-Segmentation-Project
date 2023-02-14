@@ -1,3 +1,5 @@
+#Program that will identify an annotation in an image file (.TIF, .jpg, etc.) that is blue or yellow, copy the outline, then fill outline
+
 import os
 import cv2 as cv
 from PIL import Image, UnidentifiedImageError
